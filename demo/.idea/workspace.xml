@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="158d01b1-d040-48d1-a171-a056b056c093" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/constants/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/entity/TreeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/entity/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/BeanUtilEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/CuscResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/IdentityCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/PubUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/PublicUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/QrcodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/SecuritySecretUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/SpringBeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/TemplateFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/TreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/UpLoadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/UuidUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/XmlUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/excel/ExcelHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/excel/ExcelResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/excel/ExcelTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/excel/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/excel/SysJobsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/constants/ResultEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/entity/TreeData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/entity/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/Base64Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/BeanUtilEx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/CuscResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/IdentityCodeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/JsonUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/MD5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/PubUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/PublicUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/QrcodeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/RandomUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/SecuritySecretUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/SpringBeanUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/TemplateFileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/TreeUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/TreeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/UpLoadUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/UuidUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/XmlUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/excel/ExcelHeader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/excel/ExcelResources.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/excel/ExcelTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/excel/ExcelUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/classes/com/demo/common/utils/excel/SysJobsDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/demo-common-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-config/src/main/java/com/demo/config/AppConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-config/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-config/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-config/target/classes/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-config/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-config/target/classes/com/demo/config/AppConfigApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka/src/main/java/com/demo/eureka/AppEurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka/target/classes/com/demo/eureka/AppEurekaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/demo-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/demo-common/target/" />
+    <ignored path="$PROJECT_DIR$/demo-config/target/" />
+    <ignored path="$PROJECT_DIR$/demo-center/target/" />
+    <ignored path="$PROJECT_DIR$/demo-centerback/target/" />
+    <ignored path="$PROJECT_DIR$/demo-back/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/demo$CenterApplication.ic" NAME="CenterApplication Coverage Results" MODIFIED="1539070528124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.demo.center.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/demo$com_demo_center_in_demo_center.ic" NAME="com.demo.center in demo-center Coverage Results" MODIFIED="1539071215333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.demo.center.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-config/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-207" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-dev.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo-config/src/main/resources/bootstrap-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysUserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/dao/SysUserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>profile</find>
+      <find>ipAddress</find>
+      <find>druid</find>
+      <find>spring-cloud-starter-bus-amqp</find>
+      <find>spring-cloud-starter-feign</find>
+      <find>pagehelper-spring-boot-starter</find>
+      <find>config</find>
+      <find>org.apache.poi</find>
+      <find>mysql-connector-java</find>
+      <find>spring-cloud-config-server</find>
+      <find>spring-cloud-starter-eureka</find>
+      <find>spring-boot-starter-test</find>
+      <find>spring-cloud-starter-eureka-server</find>
+      <find>redis</find>
+      <find>configuration</find>
+      <find>swagger2</find>
+      <find>swagger</find>
+      <find>spring-cloud-starter-ribbon</find>
+      <find>springfox-swagger-ui</find>
+      <find>springfox-swagger2</find>
+      <find>jackson-databind</find>
+      <find>evictionIntervalTimerInMs</find>
+      <find>interfaceResult</find>
+      <find>PageHelper</find>
+      <find>DataSourceProperties</find>
+      <find>mysql</find>
+      <find>FeignBeanFactoryPostProcessor</find>
+      <find>spring-boot-starter-data-jpa</find>
+      <find>jpa</find>
+      <find>mybatis-spring-boot-starter</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/CenterApplication.java" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/resources/bootstrap-dev.yml" />
+        <option value="$PROJECT_DIR$/demo-center/src/main/resources/bootstrap-dev.yml" />
+        <option value="$PROJECT_DIR$/demo-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-config/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/config/Filter.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/interfacedto/InterfaceResult.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/exceptionhandle/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/SecuritySecretUtil.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/entity/User.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/entity/SysUserExtend.java" />
+        <option value="$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/feignservice/UserService.java" />
+        <option value="$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/feignservice/BackService.java" />
+        <option value="$PROJECT_DIR$/demo-center/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/config/RedisService.java" />
+        <option value="F:/LocalGit/config-repo/demo-back-dev.yml" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/config/DruidDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/demo-config/src/main/resources/bootstrap-dev.yml" />
+        <option value="$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/config/CenterFilter.java" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/aop/Log.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/aop/TransactionManager.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/beans/Method.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/beans/WherePrams.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/annotation/po/FieldName.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/annotation/po/ID.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/dao/Dao.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/dao/impl/DaoImpl.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/sql/where/SqlUtil.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/FormatterSql.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/Formatter.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/SqlLog.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/SqlUtil.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/hibernate/util/ArrayHelper.java" />
+        <option value="$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/controller/CenterController.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/DemoBackApplication.java" />
+        <option value="$PROJECT_DIR$/demo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/DemoCenterApplication.java" />
+        <option value="$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/dao/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/entity/ResultMap.java" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/localservice/SysUserService.java" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/localservice/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/resources/mapper/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/demo-back/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/entity/CustomRealm.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/Java/maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="F:\Java\maven\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="147" />
+    <option name="y" value="5" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+              <item name="feignservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.back" />
+      <recent name="com.demo.back.controller" />
+      <recent name="com.demo.center.controller" />
+      <recent name="com.demo.common.exceptionhandle" />
+      <recent name="com.demo.common.interfacedto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\demo\demo\demo-back\src\main\java\com\demo\back\entity" />
+      <recent name="F:\IdeaProjects\demo\demo\demo-common\src\main\java\com\demo\common" />
+      <recent name="F:\IdeaProjects\demo\demo\demo-back\src\main\resources\mapper" />
+      <recent name="F:\IdeaProjects\demo\demo\demo-back\src\main\java\com\demo\back\config" />
+      <recent name="F:\IdeaProjects\demo\demo\demo-back\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoBackApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DemoBackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo-back" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.back.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.back.DemoBackApplication" />
+    </configuration>
+    <configuration name="DemoCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.center.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.center.DemoCenterApplication" />
+    </configuration>
+    <configuration name="DemoConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.config.DemoConfigApplication" />
+    </configuration>
+    <configuration name="DemoEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.eureka.DemoEurekaApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DemoEurekaApplication" />
+      <item itemvalue="Spring Boot.DemoConfigApplication" />
+      <item itemvalue="Spring Boot.DemoCenterApplication" />
+      <item itemvalue="Spring Boot.DemoBackApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="158d01b1-d040-48d1-a171-a056b056c093" name="Default" comment="" />
+      <created>1538981783455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538981783455</updated>
+      <workItem from="1538981788468" duration="7120000" />
+      <workItem from="1539046423877" duration="4007000" />
+      <workItem from="1539062061609" duration="3297000" />
+      <workItem from="1539071255641" duration="4275000" />
+      <workItem from="1539076130254" duration="1110000" />
+      <workItem from="1539132163716" duration="8382000" />
+      <workItem from="1539140660805" duration="3092000" />
+      <workItem from="1539150149549" duration="77000" />
+      <workItem from="1539154461458" duration="2410000" />
+      <workItem from="1539157397032" duration="2470000" />
+      <workItem from="1539160793948" duration="3353000" />
+      <workItem from="1539219392454" duration="9950000" />
+      <workItem from="1539235336468" duration="609000" />
+      <workItem from="1539239694750" duration="7975000" />
+      <workItem from="1539248324439" duration="1798000" />
+      <workItem from="1539305328486" duration="4902000" />
+      <workItem from="1539310611014" duration="986000" />
+      <workItem from="1539311624261" duration="4543000" />
+      <workItem from="1539321497853" duration="595000" />
+      <workItem from="1539322132562" duration="721000" />
+      <workItem from="1539322889341" duration="155000" />
+      <workItem from="1539323077484" duration="8960000" />
+      <workItem from="1539333215820" duration="3443000" />
+      <workItem from="1539565603516" duration="8963000" />
+      <workItem from="1539580526379" duration="6013000" />
+      <workItem from="1539588334956" duration="5348000" />
+      <workItem from="1539652152985" duration="759000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="com_demo_center_in_demo-center - 2018.10.09 at 15h 46m 58s.xml">
+      <configuration name="com.demo.center in demo-center" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="107319000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32838285" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32829046" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4768977" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32838285" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25577557" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37443268" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25577557" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32829046" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3751891" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32838285" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4768977" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="39" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/beans/Pram.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/beans/WherePrams.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/annotation/po/TableName.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/annotation/po/TempField.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/annotation/po/TraMethod.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/annotation/po/ID.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/beans/FmtParm.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/beans/Method.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/dao/Dao.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/sql/where/SqlUtil.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/sql/where/C.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/sql/exception/AiyiIdTransformationException.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/sql/exception/AiyiIdTypeException.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/Formatter.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/FormatterSql.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/GenericsUtils.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/PropertiesUtil.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/dao/impl/DaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/PUBVALUE.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/SqlLog.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/SqlUtil.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/util/hibernate/util/ArrayHelper.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/aop/Log.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/beans/Po.java" />
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/core/annotation/po/FieldName.java" />
+    <entry file="file://$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/controller/CenterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/DemoBackApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/DemoCenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/jdk1.8.0_171/src.zip!/java/lang/SecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="226" column="6" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/UsernamePasswordToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/demo/common/utils/SecuritySecretUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/localservice/impl/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/localservice/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-back/src/main/resources/mapper/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-back/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1169">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/feignservice/BackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/config/ShiroConfig.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/entity/ResultMap.java" />
+    <entry file="file://$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/entity/CustomRealm.java" />
+    <entry file="file://$PROJECT_DIR$/demo-back/src/main/java/com/demo/back/dao/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-center/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2369">
+          <caret line="150" selection-start-line="150" selection-end-line="155" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-back/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-center/src/main/java/com/demo/center/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-config/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-config/src/main/resources/bootstrap-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>demo-eureka</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

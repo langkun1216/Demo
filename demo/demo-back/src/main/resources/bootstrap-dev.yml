@@ -1,0 +1,25 @@
+spring:
+#  rabbitmq:
+#   host: 10.26.193.157
+#   port: 5672
+#   #访问rabbitMq的用户账号和密码
+#   username: zoulei
+#   password: zoulei
+
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: demo-config
+      profile: dev
+      label: master
+      failFast: true
+logging:
+  level:
+     com.demo.back.dao: debug
+
+eureka:
+  client:
+    service-url:
+#      defaultZone: http://10.26.193.156:1111/eureka/
+      defaultZone: http://127.0.0.1:1111/eureka/

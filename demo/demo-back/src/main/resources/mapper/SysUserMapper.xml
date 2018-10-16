@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.back.dao.SysUserMapper">
+    <resultMap id="BaseResultMap" type="com.demo.common.entity.SysUser" >
+        <id column="id" property="id" jdbcType="VARCHAR" />
+        <result column="sys_code" property="sysCode" jdbcType="VARCHAR" />
+        <result column="sys_name" property="sysName" jdbcType="VARCHAR" />
+        <result column="sys_sex" property="sysSex" jdbcType="INTEGER" />
+        <result column="sys_login_name" property="sysLoginName" jdbcType="VARCHAR" />
+        <result column="sys_password" property="sysPassword" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <select id="getSysUser" parameterType="com.demo.common.entity.SysUser" resultMap="BaseResultMap" >
+        select
+          *
+        from sys_user
+        where id = #{ id,jdbcType=VARCHAR}
+    </select>
+
+    <select id="getRole" parameterType="String" resultType="String" >
+        SELECT
+            sys_user_role.name
+        FROM
+            sys_user
+        LEFT JOIN sys_user_role ON sys_user_role.id = sys_user.role_id
+        where name = #{ name,jdbcType=VARCHAR}
+    </select>
+
+</mapper>

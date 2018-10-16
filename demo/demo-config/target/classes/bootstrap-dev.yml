@@ -1,0 +1,34 @@
+hystrix:
+ command:
+  default:
+   execution:
+    isolation:
+     thread:
+      timeoutInMilliseconds: 10000
+ threadpool:
+  default:
+   coreSize: 50
+   maxQueueSize: 100
+   queueSizeRejectionThreshold: 50
+
+spring:
+  cloud:
+    config:
+      server:
+       git:
+          uri: https://github.com/langkun1216/Demo.git # 配置gitlab仓库的地址，注意，此处必须以.git结尾
+          search-paths: /config-repo # gitlab仓库地址下的相对地址，可以配置多个，用,分割。
+          username: langkun1216
+          password: aabbcc112233aabbcc
+          default-label: master
+
+#           #配置本地
+#           uri: file:///F://LocalGit//
+#           search-paths: /config-repo
+
+#  rabbitmq:
+#    host: 10.26.193.157
+#    port: 5672
+#    username: zoulei
+#    password: zoulei
+

@@ -1,0 +1,59 @@
+spring:
+ jackson:
+  date-format: yyyy-MM-dd HH:mm:ss
+  time-zone: GMT+8
+ application:
+  name: demo-center
+ profiles:
+  active:
+   - dev
+ cloud:
+  inetutils:
+    ignoredInterfaces:
+      - docker*
+      - veth*
+      - lo
+  loadbalancer:
+    retry:
+      enabled: true
+ thymeleaf:
+   cache: false
+
+redisExpireTime: 2592000
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+  ServerListRefreshInterval: 5000
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+ instance:
+   prefer-ip-address: true
+   lease-renewal-interval-in-seconds: 30
+   lease-expiration-duration-in-seconds: 90
+   instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+
+hystrix:
+ command:
+  default:
+   execution:
+    isolation:
+     thread:
+      timeoutInMilliseconds: 10000
+ threadpool:
+  default:
+   coreSize: 50
+   maxQueueSize: 100
+   queueSizeRejectionThreshold: 100
+
+server:
+  port: 8200
+  tomcat:
+    max-http-post-size: 50971520
+
+
+
+
