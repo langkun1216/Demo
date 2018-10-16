@@ -8,5 +8,6 @@ public interface SysUserMapper {
 
     SysUser getSysUser(SysUser sysUser);
 
+    
     String getRole(String name);
 }
